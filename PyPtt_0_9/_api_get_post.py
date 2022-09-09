@@ -233,7 +233,7 @@ def get_post(
     content_end.append('--\n※ 發信站: 批踢踢實業坊')
     content_end.append('--\n※ 發信站: 批踢踢兔(ptt2.cc)')
     content_end.append('--\n※ 發信站: 新批踢踢(ptt2.twbbs.org.tw)')
-	content_end.append('※ 文章網址')
+    content_end.append('※ 文章網址')
 
     post_author_pattern_new = re.compile('作者  (.+) 看板')
     post_author_pattern_old = re.compile('作者  (.+)')
